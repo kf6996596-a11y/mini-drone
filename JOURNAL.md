@@ -12,6 +12,5 @@ my work process will be something like this:
   -
   -
 - mounting the components
-  
-# day 1
+
 
