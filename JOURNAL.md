@@ -1,11 +1,13 @@
 # Project Journal: Drone Controlled by Gaming Controller
 
-## 2026-10-30: 3D Frame Design Completed
+okay so my goal is to make a mini drone that i can control using a gaming controller 
 
-In this project, I'm making my first-ever mini drone using a custom 3D-printed TPU frame, an all-in-one flight controller board, four micro motors, and a tiny FPV camera. The whole system works by taking joystick movements from a gaming controller, sending them wirelessly to the flight board, and instantly controlling the motor speeds and camera view—giving me a simple, fun way to jump into hardware and electronics for the very first time.
-
-### Progress Update
-- Modeled a 65mm diamond-orientation whoop frame from scratch in Onshape.
-- Included 41mm inner diameter ducts, integrated wire relief slots, and a 25.5mm FC mounting layout.
-- Consolidated all features into a unified solid part and exported the final STL.
-- Repository set up and ready for slicing/printing!
+my work process will be something like this: 
+-design the 3d frame for the drone.
+-design my proper AOI 
+ -the micro controller i will use is STM32F411 to run the drones frimware.
+ -the imu sensor i will use MPU6000 to detects the drones tilt and turns.
+ -i will also use a voltage regulator that the 1s battery (3.7 - 4.2v) to a stable voltage to power the processor amd sensors without burning them up.
+ -for the radio reciver ill use a SX1280/SX1281 microchip along with an SMD microantenna to receive commands from the wireless controller.
+ - for the mototr circuit since i will us brushless motors ill use  12 mofsets for the motors 3 per motor
+- mounting the components
