@@ -4,9 +4,9 @@ okay so my goal is to make a mini drone that i can control using a gaming contro
 
 my work process will be something like this: 
 
--design the 3d frame for the drone.
+- design the 3d frame for the drone.
 
--design my proper AOI 
+- design my proper AOI 
 
   -the micro controller i will use is STM32F411 to run the drones frimware.
 
