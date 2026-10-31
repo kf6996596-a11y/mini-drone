@@ -1,6 +1,6 @@
 # Project Journal: Drone Controlled by Gaming Controller
 
-okay so my goal is to make a mini drone that i can control using a gaming controller 
+okay so my goal is to make a mini drone that i can control using a gaming controller i will build everythig and then use a external modyular camera for fpv
 
 my work process will be something like this: 
 
